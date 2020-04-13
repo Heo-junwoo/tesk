@@ -18,6 +18,6 @@ int main()
 	int n;
 	cout << "정수의 갯수를 입력하세요. :";
 	cin >> n;
-	sum(n);
-	cout << "정수의 합은 : " << sum(n);
+	int x = sum(n);
+	cout << "정수의 합은 : " << x;
 }
